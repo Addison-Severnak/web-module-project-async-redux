@@ -1,4 +1,5 @@
 import React from "react";
+import { connect } from "react-redux";
 
 import Joke from "./Joke";
 
@@ -14,4 +15,10 @@ const JokeList = props => {
     </div>);
 }
 
-export default JokeList;
+const mapStateToProps = (state) => {
+    return {
+        jokes: state.jokes
+    }
+}
+
+export default connect(mapStateToProps)(JokeList);

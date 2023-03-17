@@ -14,3 +14,13 @@ h1 {
   gap: 50px;
 }
 
+.loading {
+  color: #3CBBB1;
+  text-align: center;
+}
+
+.error {
+  color: #3CBBB1;
+  text-align: center;
+}
+
