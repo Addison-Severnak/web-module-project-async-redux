@@ -8,9 +8,9 @@ const JokeList = props => {
 
     return (<div id='jokeList'>
         {
-            jokes.map(joke => {
-                return (<Joke joke={joke}/>);
-            })
+        jokes.map(joke => {
+            return (<Joke joke={joke}/>)
+        })
         }
     </div>);
 }
